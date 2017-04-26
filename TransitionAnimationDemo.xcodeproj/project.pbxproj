@@ -13,6 +13,8 @@
 		EB52B7E71EB06AC4002BD2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7E51EB06AC4002BD2F5 /* Main.storyboard */; };
 		EB52B7E91EB06AC4002BD2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */; };
 		EB52B7EC1EB06AC4002BD2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7EA1EB06AC4002BD2F5 /* LaunchScreen.storyboard */; };
+		EB52B7F81EB0746B002BD2F5 /* CustomTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */; };
+		EB52B7FB1EB075E1002BD2F5 /* CustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7FA1EB075E1002BD2F5 /* CustomAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB52B7EB1EB06AC4002BD2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB52B7ED1EB06AC4002BD2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB52B7F61EB0746B002BD2F5 /* CustomTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionDelegate.h; sourceTree = "<group>"; };
+		EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionDelegate.m; sourceTree = "<group>"; };
+		EB52B7F91EB075E1002BD2F5 /* CustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationController.h; sourceTree = "<group>"; };
+		EB52B7FA1EB075E1002BD2F5 /* CustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		EB52B7DB1EB06AC4002BD2F5 /* TransitionAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB52B7F41EB06F2C002BD2F5 /* TransitionDelegate */,
 				EB52B7DF1EB06AC4002BD2F5 /* AppDelegate.h */,
 				EB52B7E01EB06AC4002BD2F5 /* AppDelegate.m */,
 				EB52B7E21EB06AC4002BD2F5 /* ViewController.h */,
 				EB52B7E31EB06AC4002BD2F5 /* ViewController.m */,
+				EB52B7F91EB075E1002BD2F5 /* CustomAnimationController.h */,
+				EB52B7FA1EB075E1002BD2F5 /* CustomAnimationController.m */,
 				EB52B7E51EB06AC4002BD2F5 /* Main.storyboard */,
 				EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */,
 				EB52B7EA1EB06AC4002BD2F5 /* LaunchScreen.storyboard */,
@@ -77,6 +86,15 @@
 				EB52B7DD1EB06AC4002BD2F5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB52B7F41EB06F2C002BD2F5 /* TransitionDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EB52B7F61EB0746B002BD2F5 /* CustomTransitionDelegate.h */,
+				EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */,
+			);
+			path = TransitionDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +170,9 @@
 			files = (
 				EB52B7E41EB06AC4002BD2F5 /* ViewController.m in Sources */,
 				EB52B7E11EB06AC4002BD2F5 /* AppDelegate.m in Sources */,
+				EB52B7F81EB0746B002BD2F5 /* CustomTransitionDelegate.m in Sources */,
 				EB52B7DE1EB06AC4002BD2F5 /* main.m in Sources */,
+				EB52B7FB1EB075E1002BD2F5 /* CustomAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
