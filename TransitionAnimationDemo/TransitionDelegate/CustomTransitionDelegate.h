@@ -8,6 +8,28 @@
 
 #import <UIKit/UIKit.h>
 
+#pragma mark -
+#pragma mark - CustomNavigationTransitionDelegate
 @interface CustomNavigationTransitionDelegate : NSObject <UINavigationControllerDelegate>
+
+@property (nonatomic, assign) BOOL interactive;
+
+@property (nonatomic, strong) UIPercentDrivenInteractiveTransition *interactionController;
+
+@end
+
+#pragma mark -
+#pragma mark - CustomTabBarTransitionDelegate
+@interface CustomTabBarTransitionDelegate : NSObject <UITabBarControllerDelegate>
+
+@property (nonatomic, assign) BOOL interactive;
+
+@property (nonatomic, strong) UIPercentDrivenInteractiveTransition *interactionController;
+
+@end
+
+#pragma mark -
+#pragma mark - CustomModalTransitionDelegate
+@interface CustomModalTransitionDelegate : NSObject <UIViewControllerTransitioningDelegate>
 
 @end

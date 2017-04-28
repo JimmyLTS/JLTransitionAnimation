@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		EB52B7DE1EB06AC4002BD2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7DD1EB06AC4002BD2F5 /* main.m */; };
 		EB52B7E11EB06AC4002BD2F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7E01EB06AC4002BD2F5 /* AppDelegate.m */; };
-		EB52B7E41EB06AC4002BD2F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7E31EB06AC4002BD2F5 /* ViewController.m */; };
 		EB52B7E71EB06AC4002BD2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7E51EB06AC4002BD2F5 /* Main.storyboard */; };
 		EB52B7E91EB06AC4002BD2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */; };
 		EB52B7EC1EB06AC4002BD2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7EA1EB06AC4002BD2F5 /* LaunchScreen.storyboard */; };
 		EB52B7F81EB0746B002BD2F5 /* CustomTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */; };
-		EB52B7FB1EB075E1002BD2F5 /* CustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7FA1EB075E1002BD2F5 /* CustomAnimationController.m */; };
+		EBA319A71EB1B26F0031BD13 /* CustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA319A61EB1B26F0031BD13 /* CustomAnimationController.m */; };
+		EBA319AA1EB1B47A0031BD13 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA319A91EB1B47A0031BD13 /* CustomTabBarController.m */; };
+		EBC170E21EB1EEE900AE6E80 /* CustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC170E11EB1EEE900AE6E80 /* CustomPresentationController.m */; };
+		EBE439E31EB30C7B0055FD4F /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE439E11EB30C7B0055FD4F /* PresentViewController.m */; };
+		EBE439E71EB32E3B0055FD4F /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE439E61EB32E3B0055FD4F /* PopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,16 +25,24 @@
 		EB52B7DD1EB06AC4002BD2F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB52B7DF1EB06AC4002BD2F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB52B7E01EB06AC4002BD2F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB52B7E21EB06AC4002BD2F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB52B7E31EB06AC4002BD2F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB52B7E61EB06AC4002BD2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB52B7EB1EB06AC4002BD2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB52B7ED1EB06AC4002BD2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB52B7F61EB0746B002BD2F5 /* CustomTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionDelegate.h; sourceTree = "<group>"; };
 		EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionDelegate.m; sourceTree = "<group>"; };
-		EB52B7F91EB075E1002BD2F5 /* CustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationController.h; sourceTree = "<group>"; };
-		EB52B7FA1EB075E1002BD2F5 /* CustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationController.m; sourceTree = "<group>"; };
+		EBA319A21EB1908F0031BD13 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		EBA319A31EB190EF0031BD13 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EBA319A51EB1B26F0031BD13 /* CustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationController.h; sourceTree = "<group>"; };
+		EBA319A61EB1B26F0031BD13 /* CustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationController.m; sourceTree = "<group>"; };
+		EBA319A81EB1B47A0031BD13 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		EBA319A91EB1B47A0031BD13 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		EBC170E01EB1EEE900AE6E80 /* CustomPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentationController.h; sourceTree = "<group>"; };
+		EBC170E11EB1EEE900AE6E80 /* CustomPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentationController.m; sourceTree = "<group>"; };
+		EBE439E01EB30C7B0055FD4F /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		EBE439E11EB30C7B0055FD4F /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		EBE439E51EB32E3B0055FD4F /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		EBE439E61EB32E3B0055FD4F /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +75,18 @@
 		EB52B7DB1EB06AC4002BD2F5 /* TransitionAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EBA319A41EB1B24E0031BD13 /* AnimationController */,
 				EB52B7F41EB06F2C002BD2F5 /* TransitionDelegate */,
 				EB52B7DF1EB06AC4002BD2F5 /* AppDelegate.h */,
 				EB52B7E01EB06AC4002BD2F5 /* AppDelegate.m */,
-				EB52B7E21EB06AC4002BD2F5 /* ViewController.h */,
-				EB52B7E31EB06AC4002BD2F5 /* ViewController.m */,
-				EB52B7F91EB075E1002BD2F5 /* CustomAnimationController.h */,
-				EB52B7FA1EB075E1002BD2F5 /* CustomAnimationController.m */,
+				EBA319A81EB1B47A0031BD13 /* CustomTabBarController.h */,
+				EBA319A91EB1B47A0031BD13 /* CustomTabBarController.m */,
+				EBE439E01EB30C7B0055FD4F /* PresentViewController.h */,
+				EBE439E11EB30C7B0055FD4F /* PresentViewController.m */,
+				EBE439E51EB32E3B0055FD4F /* PopViewController.h */,
+				EBE439E61EB32E3B0055FD4F /* PopViewController.m */,
+				EBA319A21EB1908F0031BD13 /* Common.h */,
+				EBA319A31EB190EF0031BD13 /* PrefixHeader.pch */,
 				EB52B7E51EB06AC4002BD2F5 /* Main.storyboard */,
 				EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */,
 				EB52B7EA1EB06AC4002BD2F5 /* LaunchScreen.storyboard */,
@@ -95,6 +111,17 @@
 				EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */,
 			);
 			path = TransitionDelegate;
+			sourceTree = "<group>";
+		};
+		EBA319A41EB1B24E0031BD13 /* AnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				EBA319A51EB1B26F0031BD13 /* CustomAnimationController.h */,
+				EBA319A61EB1B26F0031BD13 /* CustomAnimationController.m */,
+				EBC170E01EB1EEE900AE6E80 /* CustomPresentationController.h */,
+				EBC170E11EB1EEE900AE6E80 /* CustomPresentationController.m */,
+			);
+			path = AnimationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +155,8 @@
 				TargetAttributes = {
 					EB52B7D81EB06AC4002BD2F5 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -168,11 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB52B7E41EB06AC4002BD2F5 /* ViewController.m in Sources */,
 				EB52B7E11EB06AC4002BD2F5 /* AppDelegate.m in Sources */,
 				EB52B7F81EB0746B002BD2F5 /* CustomTransitionDelegate.m in Sources */,
+				EBE439E31EB30C7B0055FD4F /* PresentViewController.m in Sources */,
 				EB52B7DE1EB06AC4002BD2F5 /* main.m in Sources */,
-				EB52B7FB1EB075E1002BD2F5 /* CustomAnimationController.m in Sources */,
+				EBE439E71EB32E3B0055FD4F /* PopViewController.m in Sources */,
+				EBA319AA1EB1B47A0031BD13 /* CustomTabBarController.m in Sources */,
+				EBC170E21EB1EEE900AE6E80 /* CustomPresentationController.m in Sources */,
+				EBA319A71EB1B26F0031BD13 /* CustomAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +323,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TransitionAnimationDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = TransitionAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimmylts.TransitionAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7e67f3f7-3099-43e9-9307-e63a9ccb9e01";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
 			};
 			name = Debug;
 		};
@@ -303,7 +340,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TransitionAnimationDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = TransitionAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimmylts.TransitionAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,6 +370,7 @@
 				EB52B7F21EB06AC4002BD2F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
