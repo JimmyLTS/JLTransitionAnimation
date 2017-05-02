@@ -65,6 +65,13 @@
     
 }
 
+- (CustomNavigationTransitionDelegate *)navTransitionDelegate {
+    if (!_navTransitionDelegate) {
+        _navTransitionDelegate = [[CustomNavigationTransitionDelegate alloc] init];
+    }
+    return _navTransitionDelegate;
+}
+
 - (IBAction)pressPopButtonAction:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }

@@ -97,6 +97,16 @@
             transition = (_transitionOperation == NavigationTransitionPush) ? transition : -transition;
             fromViewTransform = CGAffineTransformMakeTranslation(transition, 0);
             toViewTransform = CGAffineTransformMakeTranslation(-transition, 0);
+            [containerView addSubview:toView];
+            toView.transform = toViewTransform;
+            [UIView animateWithDuration:duration animations:^{
+                fromView.transform = fromViewTransform;
+                toView.transform = CGAffineTransformIdentity;
+            } completion:^(BOOL finished) {
+                fromView.transform = CGAffineTransformIdentity;
+                toView.transform = CGAffineTransformIdentity;
+                [transitionContext completeTransition:(![transitionContext transitionWasCancelled])];
+            }];
         }
             break;
             
