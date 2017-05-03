@@ -1,8 +1,7 @@
-JLTransitionAnimationDemo
-
+## JLTransitionAnimationDemo 
 针对三种类型转场所写的 demo，参考：[http://blog.devtang.com/2016/03/13/iOS-transition-guide/](http://blog.devtang.com/2016/03/13/iOS-transition-guide/)
 
-# 转场动画
+## 转场动画
 在 NavigationController 里 push 或 pop 一个 View Controller，在 TabBarController 中切换到其他 View Controller，以 Modal 方式显示另外一个 View Controller，这些都是 View Controller Transition。在 storyboard 里，每个 View Controller 是一个 Scene，View Controller Transition 便是从一个 Scene 转换到另外一个 Scene, 中文称呼其为「转场」。
 顾名思义，转场动画便是 View Controller Transition 过程中的动画效果。
 
