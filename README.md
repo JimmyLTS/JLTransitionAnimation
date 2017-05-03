@@ -8,6 +8,7 @@
 ![转场结构变化](https://github.com/seedante/iOS-ViewController-Transition-Demo/blob/master/Figures/The%20Anatomy%20of%20Transition.png?raw=true "转场时视图控制器和其对应的视图在结构上的变化")
 
 目前为止，官方支持以下几种方式的自定义转场：
+
 	1、在 UINavigationController 中 push 和 pop;
 	2、在 UITabBarController 中切换 Tab;
 	3、Modal 转场：presentation 和 dismissal，俗称视图控制器的模态显示和消失，仅限于modalPresentationStyle属性为 UIModalPresentationFullScreen 或 UIModalPresentationCustom 这两种模式;
@@ -15,9 +16,11 @@
 
 ## 转场代理(Transition Delegate)
 有如下三种容器转场代理，对应上面三种类型的转场：
+``` text
 	<UINavigationControllerDelegate> //UINavigationController 的 delegate 属性遵守该协议。
 	<UITabBarControllerDelegate> //UITabBarController 的 delegate 属性遵守该协议。
 	<UIViewControllerTransitioningDelegate> //UIViewController 的 transitioningDelegate 属性遵守该协议。
+```
 这里除了是 iOS 7 新增的协议，其他两种在 iOS 2 里就存在了，在 iOS 7 时扩充了这两种协议来支持自定义转场。
 
 ## 动画控制器(Animation Controller)
