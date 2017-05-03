@@ -17,9 +17,9 @@
 ## 转场代理(Transition Delegate)
 有如下三种容器转场代理，对应上面三种类型的转场：
 ``` text
-	<UINavigationControllerDelegate> //UINavigationController 的 delegate 属性遵守该协议。
-	<UITabBarControllerDelegate> //UITabBarController 的 delegate 属性遵守该协议。
-	<UIViewControllerTransitioningDelegate> //UIViewController 的 transitioningDelegate 属性遵守该协议。
+<UINavigationControllerDelegate> //UINavigationController 的 delegate 属性遵守该协议。
+<UITabBarControllerDelegate> //UITabBarController 的 delegate 属性遵守该协议。
+<UIViewControllerTransitioningDelegate> //UIViewController 的 transitioningDelegate 属性遵守该协议。
 ```
 这里除了是 iOS 7 新增的协议，其他两种在 iOS 2 里就存在了，在 iOS 7 时扩充了这两种协议来支持自定义转场。
 
