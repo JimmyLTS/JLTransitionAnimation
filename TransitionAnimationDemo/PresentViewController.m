@@ -8,6 +8,7 @@
 
 #import "PresentViewController.h"
 #import "CustomTransitionDelegate.h"
+#import "LineView.h"
 
 @interface PresentViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *dismissButton;

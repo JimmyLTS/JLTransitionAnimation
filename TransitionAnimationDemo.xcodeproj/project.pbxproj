@@ -13,6 +13,7 @@
 		EB52B7E91EB06AC4002BD2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7E81EB06AC4002BD2F5 /* Assets.xcassets */; };
 		EB52B7EC1EB06AC4002BD2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52B7EA1EB06AC4002BD2F5 /* LaunchScreen.storyboard */; };
 		EB52B7F81EB0746B002BD2F5 /* CustomTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */; };
+		EB615AC21EB97E94002A97C4 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB615AC11EB97E94002A97C4 /* LineView.m */; };
 		EBA319A71EB1B26F0031BD13 /* CustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA319A61EB1B26F0031BD13 /* CustomAnimationController.m */; };
 		EBA319AA1EB1B47A0031BD13 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA319A91EB1B47A0031BD13 /* CustomTabBarController.m */; };
 		EBC170E21EB1EEE900AE6E80 /* CustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC170E11EB1EEE900AE6E80 /* CustomPresentationController.m */; };
@@ -31,6 +32,8 @@
 		EB52B7ED1EB06AC4002BD2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB52B7F61EB0746B002BD2F5 /* CustomTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionDelegate.h; sourceTree = "<group>"; };
 		EB52B7F71EB0746B002BD2F5 /* CustomTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionDelegate.m; sourceTree = "<group>"; };
+		EB615AC01EB97E94002A97C4 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		EB615AC11EB97E94002A97C4 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 		EBA319A21EB1908F0031BD13 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		EBA319A31EB190EF0031BD13 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EBA319A51EB1B26F0031BD13 /* CustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationController.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				EB52B7F41EB06F2C002BD2F5 /* TransitionDelegate */,
 				EB52B7DF1EB06AC4002BD2F5 /* AppDelegate.h */,
 				EB52B7E01EB06AC4002BD2F5 /* AppDelegate.m */,
+				EB615AC01EB97E94002A97C4 /* LineView.h */,
+				EB615AC11EB97E94002A97C4 /* LineView.m */,
 				EBA319A81EB1B47A0031BD13 /* CustomTabBarController.h */,
 				EBA319A91EB1B47A0031BD13 /* CustomTabBarController.m */,
 				EBE439E01EB30C7B0055FD4F /* PresentViewController.h */,
@@ -198,6 +203,7 @@
 			files = (
 				EB52B7E11EB06AC4002BD2F5 /* AppDelegate.m in Sources */,
 				EB52B7F81EB0746B002BD2F5 /* CustomTransitionDelegate.m in Sources */,
+				EB615AC21EB97E94002A97C4 /* LineView.m in Sources */,
 				EBE439E31EB30C7B0055FD4F /* PresentViewController.m in Sources */,
 				EB52B7DE1EB06AC4002BD2F5 /* main.m in Sources */,
 				EBE439E71EB32E3B0055FD4F /* PopViewController.m in Sources */,

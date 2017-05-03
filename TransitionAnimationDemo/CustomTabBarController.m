@@ -26,6 +26,7 @@
     // Do any additional setup after loading the view.
     [self.view addGestureRecognizer:self.panGesture];
     self.delegate = self.transitionDelegate;
+    self.viewControllers = @[self.viewControllers[0], self.viewControllers[1], self.viewControllers[2],];
 }
 
 #pragma mark-
