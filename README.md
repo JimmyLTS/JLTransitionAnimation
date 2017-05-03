@@ -5,7 +5,7 @@
 在 NavigationController 里 push 或 pop 一个 View Controller，在 TabBarController 中切换到其他 View Controller，以 Modal 方式显示另外一个 View Controller，这些都是 View Controller Transition。在 storyboard 里，每个 View Controller 是一个 Scene，View Controller Transition 便是从一个 Scene 转换到另外一个 Scene, 中文称呼其为「转场」。
 顾名思义，转场动画便是 View Controller Transition 过程中的动画效果。
 
-![转场结构变化](https://github.com/seedante/iOS-ViewController-Transition-Demo/blob/master/Figures/The%20Anatomy%20of%20Transition.png?raw=true)
+![转场结构变化](https://github.com/seedante/iOS-ViewController-Transition-Demo/blob/master/Figures/The%20Anatomy%20of%20Transition.png?raw=true) "转场时视图控制器和其对应的视图在结构上的变化"
 
 目前为止，官方支持以下几种方式的自定义转场：
 	1、在 UINavigationController 中 push 和 pop;
