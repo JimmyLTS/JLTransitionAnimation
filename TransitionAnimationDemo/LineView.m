@@ -26,7 +26,6 @@
     CGRect newRect = CGRectMake(_rect.origin.x + self.offsetX, _rect.origin.y, _rect.size.width, _rect.size.height);
     [UIView animateWithDuration:1 animations:^{
         self.frame = newRect;
-        NSShiftJISStringEncoding
     }];
 }
 
