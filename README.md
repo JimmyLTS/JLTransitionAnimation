@@ -34,3 +34,6 @@
 
 ## 转场协调器(Transition Coordinator)
 可在转场动画发生的同时并行执行其他的动画，其作用与其说协调不如说辅助，主要在 Modal 转场和交互转场取消时使用，其他时候很少用到；遵守<UIViewControllerTransitionCoordinator>协议；由 UIKit 在转场时生成，UIViewController 在 iOS 7 中新增了方法transitionCoordinator()返回一个遵守该协议的对象，且该方法只在该控制器处于转场过程中才返回一个此类对象，不参与转场时返回 nil。
+
+## Modal Transition
+## Navigation Transition (Push or Pop)
